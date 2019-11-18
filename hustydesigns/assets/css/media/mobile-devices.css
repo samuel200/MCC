@@ -1,0 +1,722 @@
+.foronlymobile {
+	display:block
+}
+
+.header-top {
+	display:none
+}
+
+.navbar-default {
+	background-color: transparent;
+border-color: transparent;
+	
+}
+
+.header-content img.header-weblogo {
+	margin-top:0px;
+	margin-bottom:0px; 
+	max-width:100%;
+}
+
+.navbar-default .navbar-brand {
+	width:70%;
+}
+
+.displaynone-formobile {
+	display:none
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 20px;
+
+}
+
+.header-content h1 {
+font-size:30px;
+margin-top:50px;
+}
+
+.header-content .header-btns button {
+	width:100%;
+	margin:0px auto;
+	float:left
+}
+
+.header-content .header-btns:last-child {
+	width:100%;
+	margin-left:0px;
+	margin-top:20px;
+}
+
+.header-content .header-btns:last-child button {
+	width:100%;
+	float:left;
+	margin-top:20px
+	
+}
+
+.header-content {
+	height:auto;
+	padding-bottom:100px
+}
+
+.header-content .row .col-lg-6:last-child {
+	width:100%;
+}
+
+.header-content img.header-social-img {
+	margin-top:10px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+
+.header-content img.header-social-img {
+	width:80%;
+}
+
+.create-account-sec .col-6-left-padding {
+	width:300px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(2) {
+	padding-left:0px
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(4) {
+	padding-left:0px
+}
+
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) {
+	padding-left:0px
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-percentage {
+	
+	width:40%;
+}
+.create-account-sec .deposit-box .deposit-percentage {
+	width:40%;
+}
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-min-max {
+		width:60%;
+}
+.create-account-sec .deposit-box .deposit-min-max {
+	width:60%;
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-percentage {
+	width:40%;
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-min-max {
+	width:60%
+}
+
+.create-account-sec .deposit-box .deposit-min-max .deposit-min-max-col:nth-child(2) {
+	width:24%;
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+
+.create-account-sec .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+
+.create-account-sec .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+
+.create-account-sec .deposit-box .deposit-min-max h4 {
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+.create-account-sec .deposit-box .deposit-min-max h3.desposit-day {
+	font-size: 17px;
+}
+
+.create-account-sec .deposit-box .deposit-min-max h3.d-min-max span {
+	font-size:11px
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-min-max .deposit-min-max-col{
+	width:38%
+	
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-percentage {
+	
+	width:40%;
+}
+
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-min-max {
+	width:60%;
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-min-max .deposit-min-max-col {
+	width:38%
+}
+.create-account-sec .deposit-box .deposit-min-max h3 span {
+	font-size:12px;
+}
+
+.create-account-sec .col-6-left-padding .deposit-box h6 {
+	font-size:70px
+}
+
+.create-account-sec .col-6-left-padding .deposit-box h6 {
+	top: -30px;
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(2) h6 {
+	width: 100%;
+
+left: -30px;
+
+text-align: left;
+
+top: -30px;
+	
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(4) h6 {
+	width: 100%;
+
+left: -30px;
+
+text-align: left;
+
+top: -30px;
+}
+
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) h6 {
+	width: 100%;
+
+left: -30px;
+
+text-align: left;
+
+top: -30px;
+	
+}
+
+.create-account-sec .deposit-box .deposit-percentage h5 {
+	font-size:20px
+}
+
+
+.create-account-sec .col-6-left-padding .deposit-box h6 {
+	left: -30px;
+}
+
+.create-account-sec .make-deposit-btn-box .deposit-buttons:last-child {
+	margin-top:15px;
+}
+
+
+.create-account-sec .make-deposit-btn-box {
+	padding-left:0px
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons {
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:90%;
+}
+
+
+.create-account-sec .profit-calculator-box {
+	margin-left:0px;
+	padding:15px;
+}
+
+.create-account-sec .profit-calculator-box h6 {
+	left:-30px
+}
+
+.create-account-sec .profit-calculator-box .profit-calculator-box-cont {
+
+    padding: 50px 0px 30px 0px;
+  float: left;
+
+width: 100%;
+
+margin-top: 30px;
+
+}
+
+.create-account-sec .profit-calculator-box {
+	width:100%
+}
+
+.create-account-sec .profit-calculator-box .your-profit span.profit-title {
+	font-size:25px
+}
+
+.about-us-sec {
+	height:auto
+}
+
+.create-account-sec .profit-calculator-box h6 {
+	font-size:60px;
+	line-height:60px
+}
+
+.create-account-sec .profit-calculator-box .profit-calculator-box-cont {
+	margin-top:0px
+}
+
+
+.about-us-sec {
+	padding-top:50px
+}
+
+
+.about-us-sec h2 {
+	font-size:35px;
+	margin-bottom:10px
+}
+
+.about-us-sec h6{
+	font-size:90px;
+	left: -20px;
+	top: -20px;
+}
+
+.why-choose-row .why-choose-box {
+	width:100%
+}
+
+.about-us-sec .latest-new-box h3 {
+	margin-top:20px
+}
+
+.about-us-sec .verified-certificate-box{
+margin-top:20px	
+}
+
+.about-us-sec .verified-certificate-box a{
+	width:100%;
+}
+
+.about-us-sec .verified-certificate-box a {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:90%;
+	margin-top:10px
+	
+}
+
+.about-us-sec .verified-certificate-box a:first-child {
+	margin-right:0%;
+}
+
+.about-us-sec .certificate-box img {
+	height:auto
+}
+
+
+.company-information .company-information-box {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:90%;
+	margin-top:10px
+}
+
+.company-information .company-information-box {
+	margin-left:0px;
+	margin-bottom:20px
+}
+
+.company-information .company-information-box:nth-child(3) {
+	width:100%;
+}
+
+.company-information .company-information-box:nth-child(4) {
+	width:100%;
+}
+.company-information .company-information-box:nth-child(4) h4 {
+	font-size:18px;
+	
+}
+
+.company-information .company-information-box:nth-child(4) h4  {
+	width: 80%;
+
+margin-top: 5px;
+}
+
+
+
+.statistics-sec h2 {
+	font-size: 45px;
+}
+
+
+.statistics-sec .statistics-box {
+	width: 300px;
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	margin-bottom:10px
+	
+}
+
+.statistics-box .statistics-box-cont h3 {
+	background-color:rgba(27,39,114,0.7);
+	background-image:none;
+	border-radius:5px;
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:100%;
+	margin-top:10px
+}
+
+.statistics-box .statistics-box-icon {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	
+
+	
+}
+
+
+.statistics-box .statistics-box-icon span {
+	text-align: center;
+display: block;
+padding-top: 50px;
+}
+
+
+.statistics-box.box-2 .statistics-box-cont h3 {
+	background-color:rgba(27,39,114,0.7);
+	background-image:none;
+	border-radius:5px;
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:100%;
+	margin-top:10px
+}
+
+.statistics-box.box-2 .statistics-box-icon {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	
+
+	
+}
+
+
+.statistics-box.box-2 .statistics-box-icon span {
+	text-align: center;
+display: block;
+padding-top: 50px;
+}
+
+
+
+
+
+.statistics-box.box-3 .statistics-box-cont h3 {
+	background-color:rgba(27,39,114,0.7);
+	background-image:none;
+	border-radius:5px;
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:100%;
+	margin-top:10px
+}
+
+.statistics-box.box-3 .statistics-box-icon {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	
+
+	
+}
+
+
+.statistics-box.box-3 .statistics-box-icon span {
+	text-align: center;
+display: block;
+padding-top: 50px;
+}
+
+
+
+
+
+.statistics-box.box-4 .statistics-box-cont h3 {
+	background-color:rgba(27,39,114,0.7);
+	background-image:none;
+	border-radius:5px;
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:100%;
+	margin-top:10px
+}
+
+.statistics-box.box-4 .statistics-box-icon {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+
+
+	
+}
+
+
+.statistics-box.box-4 .statistics-box-icon span {
+	text-align: center;
+display: block;
+padding-top: 50px;
+}
+
+
+
+
+.statistics-box.box-5 .statistics-box-cont h3 {
+	background-color:rgba(27,39,114,0.7);
+	background-image:none;
+	border-radius:5px;
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	width:100%;
+	margin-top:10px
+}
+
+.statistics-box.box-5 .statistics-box-icon {
+	float:none;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	display:block;
+	
+
+	
+}
+
+
+.statistics-box.box-5 .statistics-box-icon span {
+	text-align: center;
+display: block;
+padding-top: 50px;
+}
+
+.statistics-box .statistics-box-cont {
+	width:100%;
+}
+.statistics-box.box-2  .statistics-box-cont {
+	width:100%;
+}
+.statistics-box.box-3  .statistics-box-cont {
+	width:100%;
+}
+.statistics-box.box-4  .statistics-box-cont {
+	width:100%;
+}
+.statistics-box.box-5  .statistics-box-cont {
+	width:100%;
+}
+
+.for-desktop {
+	display:none
+}
+
+.for-mobile-only {
+	display:block;
+}
+
+
+.statistics-box.box-2 .statistics-box-icon span {
+	border:0px
+}
+
+.statistics-box.box-3 .statistics-box-icon span {
+	border:0px
+}
+
+.statistics-sec .statistics-box {
+	min-height: 220px;
+}
+.statistics-box.box-2.box-4 {
+	min-height: 280px;
+}
+
+.add0image img {
+	height: auto
+}
+
+.pre-footer-bottom {
+	height: auto;
+margin-top: -400px;
+}
+
+.statistics-sec {
+	height:auto
+}
+
+.our-statics .left-area {
+	width:100%;
+	margin-top:20px;
+	float:left
+}
+
+.statistics-sec {
+	padding-bottom:150px
+}
+
+
+.central-logo .central-logo-bg-color a {
+	width:100%;
+}
+
+
+.central-logo .central-logo-bg-color {
+	height:auto
+}
+.central-logo .central-logo-bg-color a {
+	float:none
+}
+
+
+.central-logo-bg-color a {
+	width:50%;
+	float:left
+}
+
+.company-logo .central-logo-bg-color {
+	width:100%;
+	margin-top:20px
+}
+
+.header-content ul li {
+	width: 100%;
+
+float: left;
+
+height:55px;
+	
+}
+
+.simple-headercontent.header-content ul li a {
+	width: 100%;
+
+float: left;
+}
+
+.header-content {
+	padding-bottom:30px
+}
+
+.footer-bottom-logo {
+	margin-top:20px
+}
+
+.footer-bottom-logo img {
+	max-width:100%;
+}
+
+
+
+.statistics-sec h6 {
+	font-size:60px
+}
+
+.statistics-sec h2 {
+	font-size:35px
+}
+
+.statistics-sec h6 {
+	top: -15px;
+
+z-index: 10;
+
+left: -20px;
+	
+}
+
+.company-information .company-information-box:nth-child(4) h4 {
+	font-size:16px
+}
+
+
+.statistics-box .static-icon {
+	width:50%;
+}
+
+.statistics-box.box-2 .static-icon {
+	width:50%;
+}
+
+.left-rotaing-value {
+	overflow-x:hidden
+}
+
+.about-us-sec {
+	background-size: contain;
+}
+
+.header-content {
+
+    padding-bottom: 130px;
+
+}
+
+.about-us-sec h3 {
+	font-size:25px
+}
+
+
+
+
+
+
+
+
+

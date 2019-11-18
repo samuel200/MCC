@@ -1,0 +1,93 @@
+.header-content {
+	height: 1100px;
+	 background-position: bottom center;
+}
+
+.about-us-sec {
+	height: 1856px;
+}
+
+.statistics-sec {
+	height:2800px;
+	padding-top:350px;
+	margin-top:-270px
+}
+
+.pre-footer-bottom {
+	height:1450px;
+	margin-top:-750px
+}
+
+.header-content ul li {
+    display: block;
+    float: left;	
+	
+}
+
+.header-content ul li  a{
+    float: left;	
+	
+}
+
+.header-content ul li  a button{
+    float: left;	
+	
+}
+
+.header-content ul li {
+	margin-right:3px
+}
+
+
+.statistics-sec .statistics-box {
+    width: 480px;
+}
+
+.sp-width {
+    width: 29%;
+    margin-left: 12.666666%;
+}
+
+.statistics-sec h6 {
+	left:30px
+}
+
+.statistics-sec h2 {
+	margin-left:8%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.header-content ul li:nth-child(3) {
+	    width: 112px;
+}
+
+
+.header-content ul li:nth-child(4) {
+	width: 115px;
+}
+
+.header-content ul li:nth-child(5) {
+	    width: 82px;
+}
+
+.header-content ul li:nth-child(6) {
+	    width: 95px;
+}

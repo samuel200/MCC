@@ -1,0 +1,13 @@
+#second-section{
+    background: linear-gradient(to right, red, salmon, purple);
+
+}
+
+.about-us-sec p,
+.latest-new-list{
+    color: white;
+}
+
+.header-content{
+    margin-bottom: 0px;
+}

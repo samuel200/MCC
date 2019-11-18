@@ -1,0 +1,1264 @@
+/* **
+ * ========================================
+ * Includes Fonts
+ * ========================================
+ ** */
+@font-face {
+    font-family: FontAwesome;
+    src: url(../fonts/font-awesome/fonts/FontAwesome.otf);
+}
+@font-face {
+    font-family: fontawesome-webfont;
+    src: url(../fonts/font-awesome/fonts/fontawesome-webfont.ttf);
+	}
+	
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url(../fonts/roboto/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoCondensed-Bold;
+    src: url(../fonts/roboto/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family:Roboto-Thin;
+    src: url(../fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family:Roboto-Medium;
+    src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:Roboto-Light;
+    src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family:Roboto-Black;
+    src: url(../fonts/roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family:Roboto-Bold;
+    src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:BaiJamjuree-Bold;
+    src: url(../fonts/baijamjuree/BaiJamjuree-Bold.ttf);
+}
+@font-face {
+    font-family:BaiJamjuree-Regular;
+    src: url(../fonts/baijamjuree/BaiJamjuree-Regular.ttf);
+}
+@font-face {
+    font-family:BaiJamjuree-BoldItalic;
+    src: url(../fonts/baijamjuree/BaiJamjuree-BoldItalic.ttf);
+}
+	
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'); /* support Internet explorer  */
+    src: url('../fonts/font-awesome/fonts/fontawesome-webfontd41d.eot?#iefix') format('embedded-opentype'), /* support Internet explorer  */
+         url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* support Modern browser  */
+         url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf') format('truetype'), /* support firefox , chrome   */
+         url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg');/* Svg form   */
+		font-weight: normal; 
+		font-style :normal ;
+		 
+		 
+		 }	
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/open-sans/OpenSans-Regular-webfont.eot');   /* support Internet explorer  */
+    src: url('../fonts/open-sans/OpenSans-Regular-webfontd41d.eot?#iefix') format('embedded-opentype'), /* support Internet explorer  */
+         url('../fonts/open-sans/OpenSans-Regular-webfont.woff') format('woff'), /* support Modern browser  */
+         url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype'), /* support firefox , chrome   */
+         url('') format('svg');
+		font-weight: normal;
+		font-style :normal ;
+		 
+		 
+		 }	
+		 
+		 
+a:hover, a:focus{
+	outline:none;
+	text-decoration:none;
+}
+		 
+.header-content{
+	background-image: url(../images/new-header-bg-img.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1034px;
+	margin-bottom:10px;
+}
+/*
+.tar {
+	background-image: url(../images/tar.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	height:514px;
+	margin-top:-514px;
+}
+*/
+.p-0{
+	padding:0px;
+}
+.m-0{
+	margin:0px;
+}
+.header-content ul{
+	padding:0px;
+	margin:0px;
+}
+.header-content ul li{
+	list-style: none;
+	display: inline-block;
+	transform: skew(-20deg);
+}
+.header-content ul li a{
+	background-color: #F53070;
+	padding: 12px 18px;
+	border-bottom: 2px solid #F53070;
+}
+.header-content ul li a button{
+	background-color:transparent;
+	border:none;
+	font-family:RobotoCondensed-Bold;
+	font-size:14px;
+	color:#fff;
+	text-transform: uppercase;
+	transform: skew(20deg);
+}
+.header-content ul li a:hover{
+	color:#fff;
+	background-color: #32C6FA;
+}
+.header-content ul li:first-child a{
+	border-bottom-left-radius: 2px;
+}
+.header-content ul li:last-child a{
+	border-top-right-radius: 2px;
+}
+.header-content .my-left-pad{
+	padding-left:50px;
+	padding-top: 39px;
+}
+.header-content img.header-weblogo{
+	margin-top: 50px;
+	margin-bottom: 47px;
+	
+}
+.header-content .header-btns button{
+	font-size: 16.13px;
+	font-family:RobotoCondensed-Bold;
+	color: #fff;
+	background-color: #F53070;
+	border: none;
+	border-radius: 50px;
+	padding: 16px 50px;
+	text-transform: uppercase;
+}
+.header-content .header-btns:last-child {
+	margin-left: 10px;
+}
+.header-content .header-btns:last-child button{
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #15C0FD;
+}
+.header-top{
+	background-color: rgba(27,59,104,.65);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.top-info-box{
+	width: 80%;
+	float: left;
+}
+.top-info-box .top-info-box-list{
+	width: 29%;
+	float: left;
+	border-left: 3px solid #F53070;
+	padding-left: 15px;
+}
+.top-info-box .top-info-box-list:nth-child(2){
+	width: 42%;
+}
+.top-info-box .top-info-box-list:first-child{
+	border-left:0px;
+	padding-left: 0px;
+}
+.top-info-box .top-info-box-list:nth-child(3) .box-content{
+	padding-top: 7px;
+}
+.top-info-box .box-image{
+	float: left;
+}
+.top-info-box .box-content{
+	float: left;
+	color:#38c7f9;
+}
+.top-info-box .box-content strong{
+	font-family:RobotoCondensed-Regular;
+	color:#fff;
+	
+}
+.top-info-box .box-content{
+	font-family:RobotoCondensed-Bold;
+	font-size:14px;
+	color:#38c7f9;
+	width: 80%;
+}
+.header-top a.header-buttons{
+	background-color: #F53070;
+	padding: 10px 18px;
+	display: inline-block;
+	width: 108px;
+	text-align: center;
+	transform: skew(-20deg);
+	border-radius: 2px;
+}
+.header-top a.header-buttons button{
+	transform: skew(20deg);
+	font-family: RobotoCondensed-Bold;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	background-color:transparent;
+	border:none;
+}
+.header-top a.header-buttons.btn-clr{
+	background-color: #fff;
+}
+.header-top a.header-buttons.btn-clr button{
+	color: #000;
+}
+.header-top a.header-buttons:hover{
+	background-color: #32C6FA;
+	color: #fff;
+}
+.header-top a.header-buttons:hover button{
+	color: #fff;
+}
+.header-content h1{
+	font-family:BaiJamjuree-Bold;
+	font-size:45px;
+	color:#fff;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+	margin-top:74px;
+}
+.header-content h3{
+	font-family:BaiJamjuree-Regular;
+	font-size:26px;
+	color:#fff;
+	margin-bottom: 25px;
+}
+.header-content p{
+	font-family:BaiJamjuree-Regular;
+	font-size:14px;
+	color:#fff;
+	margin-bottom: 31px;
+}
+.header-content .row .col-lg-6:first-child{
+	width: 57%;
+}
+.header-content .row .col-lg-6:last-child{
+	width: 43%;
+}
+.header-content img.header-social-img{
+	float: right;
+	margin-top: 50px;
+}
+.create-account-sec {
+	
+}
+.create-account-sec .deposit-box{
+	width: 100%;
+	float: left;
+}
+.create-account-sec .col-6-left-padding  .deposit-box  h6{
+	font-family:BaiJamjuree-Bold;
+	font-size:116px;
+	color: #F8F8F8;
+	position: absolute;
+	top: -70px;
+	z-index: 10;
+	left: -60px;
+}
+.create-account-sec .deposit-box .deposit-box-cont-box{
+	background-image: url(../images/funfact-box-bg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position:left center;
+	height: 161px;
+	position: relative;
+	z-index: 20;
+}
+.create-account-sec .deposit-box .deposit-percentage{
+	width: 28%;
+	float: left;
+	text-align: center;
+	height: 161px;
+	display: table;
+}
+.create-account-sec .deposit-box .deposit-percentage h5{
+	font-family:BaiJamjuree-Bold;
+	font-size:28px;
+	color: #fff;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.create-account-sec .deposit-box .deposit-percentage h5 span{
+	font-size: 12.8px;
+	display: block;
+}
+.create-account-sec .deposit-box .deposit-min-max{
+	float: left;
+	width: 72%;
+	padding-top: 45px;
+}
+.create-account-sec .deposit-box .deposit-min-max h4{
+	font-family:BaiJamjuree-Bold;
+	font-size:20px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+.create-account-sec .deposit-box .deposit-min-max .deposit-min-max-col{
+	width: 23%;
+	float: left;
+}
+.create-account-sec .deposit-box .deposit-min-max .deposit-min-max-col:nth-child(2){
+	width: 18%;
+	float: left;
+}
+	
+.create-account-sec .deposit-box .deposit-min-max h3.desposit-day{
+	font-family:BaiJamjuree-Bold;
+	font-size:33.6px;
+	color: #747474;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+.create-account-sec .deposit-box .deposit-min-max h3 span{
+	font-size: 14.4px;
+	display: block;
+	color:#363636;
+	font-family:BaiJamjuree-Regular;
+}
+.create-account-sec .deposit-box .deposit-min-max h3.d-min-max{
+	font-family:BaiJamjuree-Bold;
+	font-size: 14.5px;
+	color: #e22a76;
+	margin-top: 18px;
+	margin-bottom: 0px;
+}
+.create-account-sec .deposit-box .deposit-min-max h3.d-min-max span{
+	font-size: 14.4px;
+	display: block;
+	color:#363636;
+	font-family:BaiJamjuree-Regular;
+}
+.create-account-sec .deposit-box .deposit-min-max .deposit-min-max-col:nth-child(4) h3.d-min-max{
+	color:#6e089e;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(2){
+	padding-left: 100px;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(2) h6{
+	width: 100%;
+	left: 35px;
+	text-align: center;
+	top: -55px;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-percentage{
+	width: 34%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-min-max{
+	width: 66%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-min-max .deposit-min-max-col{
+	width: 30%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(2) .deposit-box .deposit-min-max .deposit-min-max-col:nth-child(2){
+	width: 24%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(4){
+	padding-left: 100px;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(4) h6{
+	width: 100%;
+	left: 35px;
+	text-align: center;
+	top: -55px;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-percentage{
+	width: 34%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-min-max{
+	width: 66%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-min-max .deposit-min-max-col{
+	width: 30%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(4) .deposit-box .deposit-min-max .deposit-min-max-col:nth-child(2){
+	width: 24%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(6){
+	padding-left: 100px;
+}
+.create-account-sec .row .col-lg-6 .col-6-left-padding .col-lg-12:nth-child(6) h6{
+	width: 100%;
+	left: 35px;
+	text-align: center;
+	top: -55px;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-percentage{
+	width: 34%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-min-max{
+	width: 66%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-min-max .deposit-min-max-col{
+	width: 30%;
+}
+.create-account-sec .row .col-lg-6  .col-6-left-padding .col-lg-12:nth-child(6) .deposit-box .deposit-min-max .deposit-min-max-col:nth-child(2){
+	width: 24%;
+}
+.create-account-sec .make-deposit-btn-box{
+	background-image:url(../images/desposit-btn-box-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 40px;
+	margin-top: 90px;
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons{
+	display: inline-block;
+	transform: skew(-20deg);
+	background-color: #fff;
+	padding: 12px 38px;
+	border-radius:2px;
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons button{
+	font-family: RobotoCondensed-Bold;
+	font-size: 18px;
+	color: #575757;
+	text-transform: uppercase;
+	transform: skew(20deg);
+	border: none;
+	background-color: transparent;
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons:last-child{
+	background-color: #34C6F9;
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons:last-child button{
+	color: #fff;
+}
+.create-account-sec .col-6-left-padding{
+	width: 585px;
+	float: right;
+}
+.create-account-sec .profit-calculator-box{
+	width: 575px;
+	border: 1px solid #eee;
+	float: left;
+	margin-top: 45px;
+	-webkit-box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 10px 25px 5px rgba(0,0,0,0.2);
+	overflow: hidden;
+	position:relative;
+}
+.create-account-sec .profit-calculator-box:after {
+    content:"";
+    background: -webkit-linear-gradient(left, rgba(219,40,121,1) 0%, rgba(121,8,151,1) 50%, rgba(121,8,151,1) 51%, rgba(1,132,232,1) 100%);
+    display: block;
+    height:10px;
+    width: 575px;
+    position: absolute;
+    bottom: 0;
+	
+}
+.create-account-sec .profit-calculator-box h6{
+	font-family: BaiJamjuree-Regular;
+	font-size: 99px;
+	color: #F8F8F8;
+	position: absolute;
+	top: 20px;
+	z-index: 10;
+	left: -105px;
+	text-transform: uppercase;
+	line-height: 86px;
+} 
+.create-account-sec .profit-calculator-box h6 span{
+	font-family: BaiJamjuree-Bold;
+}
+.create-account-sec .profit-calculator-box .profit-calculator-box-cont{
+	padding:90px 50px 130px 50px; 
+	float: left;
+	width:100%;
+}
+.create-account-sec .profit-calculator-box .profit-calculator-box-cont h5{
+	font-family: BaiJamjuree-Regular;
+	font-size: 40px;
+	color: #e02a77;
+	text-transform:uppercase;
+	line-height: 36px;
+	margin-top: 0;
+	margin-bottom: 46px;
+	position: relative;
+	z-index: 20;
+}
+.create-account-sec .profit-calculator-box .profit-calculator-box-cont h5 span{
+	font-family: BaiJamjuree-Bold;
+	color:#bdbdbd;
+	display: block;
+}
+.create-account-sec .profit-calculator-box .nice-select::after{
+	background-image: url(../images/select-arrow-icon.png);
+	height: 14px;
+	width: 16px;
+	top: 45%;
+	right: 15px;
+	border: none;
+	transform: rotate(0deg);
+}
+.create-account-sec .profit-calculator-box .nice-select{
+	background-color: #f7f7f7;
+	border-radius: 2px;
+	height: auto;
+	padding: 10px 15px;
+	font-family: BaiJamjuree-Regular;
+	font-size: 20px;
+	color: #838383;
+	margin-bottom: 38px;
+}
+.create-account-sec .profit-calculator-box label{
+	font-family: BaiJamjuree-Regular;
+	font-size: 16px;
+	color: #9c9b9b;
+	font-weight:normal;
+	width: 100%;
+	float: left;
+}
+.create-account-sec .profit-calculator-box label span{
+	color: #e22a76;
+}
+.create-account-sec .profit-calculator-box .investing-amount{
+	width:50%;
+	float:left;
+}
+.create-account-sec .profit-calculator-box .investing-amount .investing-currency-icon{
+	width:30%;
+	float:left;
+	text-align: center;
+	background-color: #3C9FF2;
+	height: 60px;
+	padding: 18px;
+}
+.create-account-sec .profit-calculator-box .investing-amount .investing-currency-icon i{
+	color: #fff;
+	font-size: 22px;
+}
+.create-account-sec .profit-calculator-box .investing-amount .investing-price-box{
+	width:70%;
+	float:left;
+}
+.create-account-sec .profit-calculator-box .investing-amount .investing-price-box input{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #e8e8e8;
+	border-left: 0px;
+	border-radius: 2px;
+	font-family: BaiJamjuree-Regular;
+	font-size: 18px;
+	color: #838383;
+	padding: 15px;
+}
+.create-account-sec .profit-calculator-box  .your-profit{
+	width:50%;
+	float:left;
+	padding-left: 22px;
+	padding-right:22px;
+}
+.create-account-sec .profit-calculator-box  .your-profit input.profit-title{
+	border:none;
+color:#DA277A;
+	font-family: BaiJamjuree-Bold;
+	font-size: 45px;
+	line-height: 58px;
+}
+.about-us-sec{
+	background-image: url(../images/new-about-us-sec.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1556px;
+	padding-top: 338px;
+}
+.about-us-sec h6{
+	font-family: BaiJamjuree-Bold;
+	font-size: 150px;
+	color: #F8F8F8;
+	margin: 0px;
+	text-transform: uppercase;
+	position: absolute;
+	top: -60px;
+	z-index: 10;
+	left: -60px;
+}
+.about-us-sec h2{
+	font-family: BaiJamjuree-Bold;
+	font-size: 55px;
+	color: #f53070;
+	margin-top: 0px;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+	position: relative;
+	z-index: 20;
+}
+.about-us-sec h2 span{
+	color: #4371de;
+}
+.about-us-sec p{
+	font-family: BaiJamjuree-Regular;
+	font-size: 15px;
+	color: #797979;
+	text-align: justify;
+	margin:0px;
+}
+.about-us-sec h3{
+	font-family: BaiJamjuree-Bold;
+	font-size: 35px;
+	color: #2a2a2a;
+	margin-top: 52px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.why-choose-row{
+	width:100%;
+	float:left;
+}
+.why-choose-row .why-choose-box{
+	width:50%;
+	float:left;
+	background-image:url(../images/why-choice-is-box-bg.png);
+	height: 175px;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-bottom: 32px;
+}
+.why-choose-row .why-choose-box .why-choose-box-icon{
+	width:35%;
+	float:left;
+	text-align: center;
+	padding-top: 51px;
+	padding-left: 15px;
+}
+.why-choose-row .why-choose-box .why-choose-box-icon img{
+	height: 75px;
+}
+.why-choose-row .why-choose-box .why-choose-box-content{
+	width:65%;
+	float:left;
+}
+.why-choose-row .why-choose-box .why-choose-box-content h4{
+	font-family:BaiJamjuree-BoldItalic;
+	font-size: 22px;
+	color: #565656;
+	margin-top: 0px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-top: 63px;
+	margin-left: -30px;
+}
+.why-choose-row .why-choose-box .why-choose-box-content h4 span{
+	color: #f53070;
+}
+.about-us-sec .latest-new-box h3 i{
+	margin-right: 7px;
+}
+.about-us-sec .latest-new-box h3{
+	margin-top: 115px;
+	font-size: 25px;
+	margin-bottom: 13px;
+}
+.about-us-sec .latest-new-box .latest-new-list h4{
+	font-family: BaiJamjuree-Bold;
+	font-size: 20px;
+	color: #f53070;
+	margin-bottom: 5px;
+}
+.about-us-sec .latest-new-box .latest-new-list p a{
+	font-family: BaiJamjuree-Bold;
+	color: #4371de;
+}
+.about-us-sec .latest-new-box .latest-new-list p a:hover{
+	color: #f53070;
+}
+.about-us-sec .verified-certificate-box{
+	width:100%;
+	float:left;
+	margin-top: 88px;
+}
+.about-us-sec .verified-certificate-box a{
+	font-family: BaiJamjuree-Bold;
+	font-size: 15px;
+	background-color: #4371DE;
+	width: 49%;
+	float: left;
+	padding: 8px 10px;
+	border-radius: 10px;
+	color: #fff;
+	margin-left: 2%;
+	text-align: center;
+	line-height: 17px;
+}
+.about-us-sec .verified-certificate-box a:first-child{
+	margin-left:0px;
+	background-color:#f53070;
+}
+.about-us-sec .certificate-box{
+	 border-image: -webkit-linear-gradient(-65deg, rgba(212,232,252,1) 0%,rgba(177,156,221,.75) 30%,rgba(166,80,178,.78) 60%,rgba(215,42,126,1) 100%);
+    border-image-slice: 100%;
+	border-image-slice: 1;
+	border-width: 7px;
+	border-style: solid;
+	margin-top: 42px;
+}
+.about-us-sec .certificate-box img{
+	width: 100%;
+}
+.company-information{
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+.company-information .company-information-box{
+	background-color:#EF2D62;
+	float: left;
+	padding: 11px 25px;
+	width: 19.5%;
+	margin-left:5px;
+	transform: skew(-20deg);
+	min-height: 71px;
+}
+.company-information .company-information-box:first-child{
+	margin-left:0px;
+}
+.company-information .company-information-box:nth-child(2){
+	background-color:#4371DE;
+}
+.company-information .company-information-box:nth-child(3){
+	width: 25%;
+}
+.company-information .company-information-box:nth-child(4){
+	width: 33.75%;
+	background-color:#4371DE;
+}
+.company-information .company-information-box h3{
+	font-family: BaiJamjuree-Bold;
+	font-size: 16px;
+	color: #fff;
+	font-style:italic;
+	text-decoration: underline;
+	margin: 0px;
+	transform: skew(20deg);
+}
+.company-information .company-information-box h4{
+	font-family: BaiJamjuree-Bold;
+	font-size: 26px;
+	color: #fff;
+	font-style:italic;
+	margin: 0px;
+	transform: skew(20deg);
+}
+.company-information .company-information-box:nth-child(4) h4{
+    font-size: 22px;
+	float: left;
+	width: 85%;
+}
+.company-information .company-information-box .about-location-icon{
+	width: 12%;
+	float: left;
+	margin-right: 10px;
+}
+.company-information .company-information-box .about-location-icon img{
+	margin-top: 6px;
+	transform: skew(20deg);
+}
+.statistics-sec{
+	background-image: url(../images/new-statistics-sec-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2397px;
+	padding-top: 249px;
+}
+.statistics-sec h6{
+	font-family: BaiJamjuree-Bold;
+	font-size: 110px;
+	color: #182A57;
+	margin: 0px;
+	text-transform: uppercase;
+	position: absolute;
+	top: -35px;
+	z-index: 10;
+	left: -60px;
+}
+.statistics-sec h2{
+	font-family: BaiJamjuree-Bold;
+	font-size: 55px;
+	color: #adc5ff;
+	margin-top: 0px;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+	position: relative;
+	z-index: 20;
+}
+.statistics-sec .statistics-box{
+	
+}
+.statistics-box .statistics-box-icon{
+	background-image: url(../images/stats.gif);
+	height: 167px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 168px;
+	float: left;
+	display:table;
+}
+.statistics-box .statistics-box-icon span{
+	color:#f53070;
+	font-family: BaiJamjuree-Bold;
+	font-size: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	}
+.statistics-box .statistics-box-cont{
+	width: 55%;
+	float: left;
+}
+.statistics-box .statistics-box-cont h3{
+	color:#fff;
+	font-family: BaiJamjuree-Bold;
+	font-size: 18px;
+	margin: 0px;
+	background-image: url(../images/statistics-title-bg-2.png);
+	height: 69px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 236px;
+	margin-top: 50px;
+	padding-top: 9px;
+	padding-left: 30px;
+}
+.statistics-box .statistics-box-cont h3 img{
+	margin-left:10px;
+}
+.header-content ul li.active a {
+	background-color:#06BEFF
+}
+.header-content .row .col-lg-6:last-child {
+    width: 50%;
+}
+.header-content img.header-social-img {
+    float: right;
+    margin-top: -140px;
+}
+.header-content .header-btns:last-child button:hover {
+	border: 2px solid #F53070;
+	background-color:transparent
+}
+.header-content .header-btns button:hover {
+	background-color:#15C0FD
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons:hover {
+	background-color:#15C0FD;
+	color:#fff;
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons:hover button {
+	color:#fff;
+}
+.create-account-sec .make-deposit-btn-box .deposit-buttons:hover  {
+	background-color:#F53070
+}
+.about-us-sec .verified-certificate-box a:first-child:hover {
+	background-color:#15C0FD;
+}
+.about-us-sec .verified-certificate-box a:hover {
+	background-color:#F53070
+}
+.create-account-sec .profit-calculator-box {
+	margin-left:30px;
+}
+.about-us-sec .certificate-box img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+.statistics-box .static-icon {
+	position:absolute;
+	left:0;
+	right:auto;
+	margin-top: 20px;
+margin-left: -51px;
+}
+.statistics-box .statistics-box-icon {
+	margin-left:47px;
+}
+.statistics-box.box-2  .statistics-box-icon{
+	margin-left:0px;
+}
+.statistics-box.box-2 .statistics-box-cont h3 {
+	background-image: url(../images/statistics-title-bg-1_03.png);
+}
+.statistics-box.box-2  .static-icon  {
+	left: auto;
+margin-left: 0px;
+right: -57px;
+margin-top: 10px;
+}
+.statistics-box.box-2 .statistics-box-cont {
+	width: 49%;
+}
+.statistics-box.box-2 .statistics-box-icon {
+	background-image: url(../images/stats.gif);
+	
+}
+.statistics-box.box-2 .statistics-box-icon span {
+	color:#86AAFF;
+	border:1px solid #6485D2;
+	background: #00174D;
+	padding:5px;
+	height: 57px;
+display: block;
+line-height: 42px;
+margin-top: 53px;
+position: relative;
+right: -50px;
+}
+.statistics-box .statistics-box-cont h3 {
+	line-height:51px;
+}
+.statistics-box .statistics-box-cont h3 img {
+	margin-top:-5px;
+}
+.statistics-box.box-3 .statistics-box-icon span {
+	color:#F53070;
+	border:1px solid #F53070;
+	background:#00174D !important;
+	padding:5px;
+	height: 57px;
+display: block;
+line-height: 42px;
+margin-top: 53px;
+position: relative;
+left: -50px;
+}
+.statistics-box.box-3 .statistics-box-icon {
+	
+	background-size: contain;
+}
+.statistics-box.box-3 .statistics-box-icon {
+	margin-left:30px;
+}
+.statistics-box.box-3 .statistics-box-cont {
+	margin-left:-12px;
+}
+.statistics-box.box-3 .static-icon {
+	margin-top: -5px;
+}
+.statistics-box.box-3  .statistics-box-icon {
+	background-image: url(../images/stats.gif);
+}
+.statistics-box.box-3  .static-icon {
+	width:150px;
+}
+.statistics-box.box-2.box-4 .statistics-box-icon {
+	
+	background-size: contain;
+	margin-left:-12px;
+	background-image: url(../images/stats.gif);
+}
+.statistics-box .statistics-box-cont h3{
+	padding-left:22px;
+}
+.statistics-box.box-5 .statistics-box-icon {
+	background-image: url(../images/stats.gif);
+	
+}
+.statistics-box.box-5 .static-icon {
+	margin-top: -20px;
+    width: 190px;
+}
+.statistics-sec .statistics-box {
+    margin-bottom: -30px;
+    float: left;
+    width: 100%;
+}
+.responsive-image {
+	padding-right:0px
+}
+.responsive-image  img {
+	width:100%;
+	max-width:100%;
+	height:auto
+}
+.add0image img {
+	width:100%;
+	max-width:100%;
+	height: 520px;
+object-fit: contain;
+}
+.margin-top-10 {
+	margin-top:75px;
+}
+.our-statics .left-area {
+    width: 50%;
+    float: left;
+}
+.our-statics .light-orange-box {
+background-color: rgba(245,48,112,0.4);
+    
+    float: left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+	padding-right:30px
+}
+.our-statics .light-orange-box:nth-of-type(2n+1) {
+	background-color: rgba(245,48,112,0.7);
+}
+.our-statics .light-orange-box.opposit {
+	background-color: rgba(245,48,112,0.7);
+}
+.our-statics .light-orange-box.opposit:nth-of-type(2n+1) {
+	background-color: rgba(245,48,112,0.4);
+}
+.our-statics .box-half-content {
+    font-family: BaiJamjuree-Regular;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+}
+.our-statics .box-half-content {
+    float: left;
+    width: 100%;
+}
+.our-statics .box-half-content .left-box1 {
+    float: right;
+    width: 25%;
+}
+.our-statics .box-half-content img {
+    float: left;
+    margin-right: 5px;
+}
+.our-statics .box-half-content .left-box2 {
+    float: left;
+    width: 75%;
+    margin-top: 9px;
+}
+.our-statics .box-half-content b {
+    font-family: BaiJamjuree-Bold;
+    font-size: 24px;
+    color: #b1c8ff;
+    font-weight: normal;
+}
+.our-statics .box-half-content {
+    font-family: BaiJamjuree-Regular;
+    color: #fff;
+    font-size: 16px;
+    line-height: 17px;
+}
+.our-statics .box-half-content .left-box2 {
+	margin-top:12px;
+}
+.deposit-btn a {
+	background-color:#F53070;
+	font-family: BaiJamjuree-Bold;
+    font-size: 18px;
+    color: #fff;
+	width:100%;
+	text-align:center;
+	height:67px;
+	float:left;
+	line-height: 67px;
+	margin-bottom:3px;
+	border:2px solid #F53070;
+	
+}
+.deposit-btn a:hover {
+	background-color:#9F336B
+	
+}
+.deposit-btn.transparent a{
+	background-color:transparent;
+	border:2px solid #fff;
+}
+.deposit-btn.transparent a:hover{
+	background-color:#9F336B
+}
+.secure-image img{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align:center;
+	margin-top:15px;
+	max-width:100%;
+}
+.pre-footer-bottom {
+	
+	background-image: url(../images/footer-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1120px;
+	max-height:1200px;
+	margin-top:-520px;
+	position:relative
+	
+	
+}
+
+.tradingview-widget-container {
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align:center;
+	max-width:100%;
+	margin-top: 170px;
+}
+
+.graphimage  img{
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align:center;
+	max-width:100%;
+	margin-top: 170px;
+}
+.central-logo .central-logo-bg-color {
+	background-color: rgba(0,0,0,0.4);
+padding-top: 20px;
+padding-bottom: 20px;
+width: 98%;
+border-radius: 5px;
+border-bottom: 3px solid #000;
+margin-left:auto;
+margin-right:auto;
+display:block;
+float:none;
+position:relative;
+height:77px;
+margin-top:-3px;
+	
+}
+.central-logo .central-logo-bg-color {
+	text-align:center;
+}
+.central-logo .central-logo-bg-color a {
+	width:12.5%;
+	float:left
+}
+.company-logo  .central-logo-bg-color{
+	width:82%;
+	margin-left:auto;
+margin-right:auto;
+display:block;
+float:none;
+position:relative;
+margin-top:50px
+}
+.company-logo  .central-logo-bg-color img {
+	margin-left:3px;
+	margin-right:3px;
+}
+.simple-headercontent.header-content {
+	background-image:none;
+	height:auto;
+	margin:0px
+}
+.simple-headercontent.header-content .header-menu {
+	width:89%;
+	margin-left:auto;
+margin-right:auto;
+display:block;
+float:none;
+position:relative;
+margin-top:55px;
+}
+.header-content ul li a {
+	color: #232323;
+	font-size:12px;
+	text-transform:uppercase;
+background-color: #3EC8F8;
+border-bottom-color:#3EC8F8
+}
+.header-content ul li.active a {
+	color: #fff;
+	
+background-color: #8C0C36;
+border-bottom-color:#3EC8F8
+}
+.header-content ul li a:hover {
+		color: #fff;
+		text-decoration:none;
+background-color: #8C0C36;
+border-bottom-color:#3EC8F8
+}
+.footer-bottom-logo {
+	text-align:center;
+	margin-top:49px
+}
+.footer-bottom-logo a.central-border {
+	margin-left:15px;
+	margin-right:15px;
+}
+.copyright {
+	font-family:Roboto-Medium;
+	font-size:13px;
+	text-align:center;
+	color:#fff;
+	margin-top:20px;
+}
+.foronlymobile {
+	display:none
+}
+.for-mobile-only {
+	display:none
+}
+.why-choose-row .why-choose-box {
+	margin-bottom:0px
+}
+.header-content ul li {
+    display: block;
+    float: left;	
+	
+}
+.header-content ul li  a{
+    float: left;	
+	
+}
+.header-content ul li  a button{
+    float: left;	
+	
+}
+.header-content ul li {
+	margin-right:3px
+}
