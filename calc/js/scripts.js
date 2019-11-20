@@ -167,50 +167,17 @@ function sw(plan)
 		amount=$('.calculate-amount').val();
 		data.min=10;
 		data.max=20000;
-		data.percent=101;
+		data.percent=110;
 		switch (plan)
 		{
 		case '1':
-				data.min = 10;
-				data.max = 20000;
-				data.plan=1;
-				data.duration=1;
-				percent=101;
-
-				if(amount>=10&&amount<=7000) { percent=101; }
-				else if(amount>=7001&&amount<=10000){ percent=115; }
-				else if(amount>=10001&&amount<=15000){ percent=122; }
-				else if(amount>=15001&&amount<=20000){ percent=135; }
-				else if(amount<10){ percent=101; }
-				data.percent=percent;
+				data.percent= 110;
 				break;
 		case '2':
-				data.min = 100;
-				data.max = 50000;
-				data.plan=2;
-				data.duration=7;
-				percent=109;
-
-				if(amount>=100&&amount<=500) { percent=109; }
-				else if(amount>=7001&&amount<=15000){ percent=210; }
-				else if(amount>=15001&&amount<=25000){ percent=350; }
-				else if(amount>=25001&&amount<=50000){ percent=550; }
-				else if(amount<100){ percent=109; }
-				data.percent=percent;
+				data.percent= 125;
 				break;
 		case '3':
-				data.min = 1000;
-				data.max = 35000;
-				data.plan=3;
-				data.duration=15;
-				percent=122;
-
-				if(amount>=1000&&amount<=10000) { percent=122; }
-				else if(amount>=10001&&amount<=18000){ percent=550; }
-				else if(amount>=18001&&amount<=25000){ percent=850; }
-				else if(amount>=25001&&amount<=35000){ percent=1200; }
-				else if(amount<1000){ percent=122; }
-				data.percent=percent;
+				data.percent=150;
 				break;
 		case '4':
 				data.min = 1500;
@@ -288,7 +255,7 @@ function calc(data, amount)
 		}
 	else
 		{
-			var total=Math.round(amount*percent*duration).toFixed(0)/100;
+			var total=Math.round(amount*percent).toFixed(0)/100;
 		}
 	$('.calculate-duration').val(duration);
 	$('.depos').val('$'+amount.toFixed(2));

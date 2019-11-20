@@ -89,7 +89,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 </style>
-
+<link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -117,7 +117,7 @@ font-family: 'Roboto', sans-serif;
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active wow fadeIn" data-wow-delay="0s"><a href="index.php">Home</a></li>
-            <li><a class="wow fadeIn" data-wow-delay="0.1s" href="#">About us</a></li>
+            <li><a class="wow fadeIn" data-wow-delay="0.1s" href="about.php">About us</a></li>
             <li><a class="wow fadeIn" data-wow-delay="0.2s" href="#">Affiliates</a></li>
 			<li><a class="wow fadeIn" data-wow-delay="0.3s" href="#">How it works</a></li>
 			<li><a class="wow fadeIn" data-wow-delay="0.4s" href="#">News</a></li>
@@ -166,13 +166,13 @@ font-family: 'Roboto', sans-serif;
 			<a class="mobile-display-none wow fadeInLeft" data-wow-delay="0s"  href="index.php"><img width="400" class="header-weblogo mobile-display-none" src="hustydesigns/assets/images/mlogo.png"></a>
 				
 				<ul class="header-menu mobile-display-none">
-					<li class="active wow fadeIn" data-wow-delay="0s"><a href="index.php">Home</a></li>
-					<li><a class="wow fadeIn" data-wow-delay="0.1s" href="#">About us</a></li>
-					<li><a class="wow fadeIn" data-wow-delay="0.2s" href="#">Affiliates</a></li>
-					<li><a class="wow fadeIn" data-wow-delay="0.3s" href="#">How it works</a></li>
-					<li><a class="wow fadeIn" data-wow-delay="0.4s" href="#">News</a></li>
-					<!--<li><a class="wow fadeIn" data-wow-delay="0.5s" href="index1ccb.html?a=cust&amp;page=rateus">RATE us</a></li>-->
-					<li><a class="wow fadeIn" data-wow-delay="0.6s" href="#">contact us</a></li>
+				<li class="active wow fadeIn" data-wow-delay="0s"><a href="index.php">Home</a></li>
+					<li><a class="wow fadeIn" data-wow-delay="0.1s" href="about.php">About us</a></li>
+					<li><a class="wow fadeIn" data-wow-delay="0.2s" href="affiliates.php">Affiliates</a></li>
+					<li><a class="wow fadeIn" data-wow-delay="0.3s" href="start.php">How it works</a></li>
+					<li><a class="wow fadeIn" data-wow-delay="0.4s" href="news.php">News</a></li>
+					<!-- <li><a class="wow fadeIn" data-wow-delay="0.5s" href="rate-us.php">RATE us</a></li> -->
+					<li><a class="wow fadeIn" data-wow-delay="0.6s" href="contact.php">contact us</a></li>
 				</ul>
 			</div>
 			
@@ -516,13 +516,47 @@ $(document).mousemove(function(e) {
 									<i class="fa fa-usd" aria-hidden="true"></i>
 								</div>
 								<div class="investing-price-box">
-									<input class="calculate-amount" type="text">
+									<input class="calculate-amount" type="text" id="value-input">
 								</div>
 							</div>
 							<div class="your-profit">
 								<label>Your <span>Profit</span></label>
-								<input class="profit-title summ summ"type="text" value="$110.00" readonly />
+								<input class="profit-title summ summ"type="text" value="$110.00" readonly id="value-output" />
 							</div>
+							<!-- <script>
+								var valueInput;
+								var valueOutput;
+
+								function updateValue(){
+									var plan = document.querySelector("#nice-select-select");
+									switch(plan.value){
+										case "1":
+											valueInput = document.querySelector("#value-input");
+											valueOutput = document.querySelector("#value-output");
+											valueOutput.value = parseFloat(valueInput.value) * 1.1;
+											break;
+
+										case "2":
+											valueInput = document.querySelector("#value-input");
+											valueOutput = document.querySelector("#value-output");
+											valueOutput.value = parseFloat(valueInput.value) * 1.25;
+											break;
+										
+										case "3":
+											valueInput = document.querySelector("#value-input");
+											valueOutput = document.querySelector("#value-output");
+											valueOutput.value = parseFloat(valueInput.value) * 1.5;
+											break;
+
+										finally:
+											console.log(`plan: ${ plan.value }`);
+											console.log(`value input: ${ valueInput.value }`);
+											console.log(`value output: ${ valueOutput.value }`);
+											
+									}
+								}
+
+							</script> -->
 						</div>
 					</div>
 				</div>
@@ -1050,14 +1084,14 @@ show_topright('d','11235','the_billionaire_limited');</script>
 			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header-content simple-headercontent">
 				<ul class="header-menu mobile-display-none">
-					<li><a href="#"><button>About us</button></a></li>
-					<li><a href="#"><button>Get Started</button> </a></li>
-					<li><a href="#"><button>FAQs</button> </a></li>
-					<li><a href="#"><button>Rules</button></a></li>
-					<!--<li><a href="index1ccb.html?a=cust&amp;page=rateus"><button>RATE us</button></a></li>-->
-					<li><a href="#"><button>Anti-Spam</button></a></li>
-					<li><a href="#"><button>Privacy policy</button></a></li>
-					<li><a href="#"><button>contact us</button></a></li>
+				<li><a href="about.php"><button>About us</button></a></li>
+					<li><a href="start.php"><button>get started</button> </a></li>
+					<li><a href="faq.php"><button>FAQs</button> </a></li>
+					<li><a href="rules.php"><button>Rules</button></a></li>
+					<li><a href="rate-us.php"><button>RATE us</button></a></li>
+					<li><a href="antispam.php"><button>Anti-Spam</button></a></li>
+					<li><a href="privacy.php"><button>Privacy policy</button></a></li>
+					<li><a href="contact.php"><button>contact us</button></a></li>
 				</ul>
 			</div>
 			

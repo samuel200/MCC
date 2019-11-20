@@ -11,3 +11,16 @@
 .header-content{
     margin-bottom: 0px;
 }
+
+body{
+    background-image: linear-gradient(to top right, rgb(173, 7, 43), salmon,  white) !important;
+}
+
+.page-centers{
+    background-image: linear-gradient(to top right, rgb(173, 7, 43), salmon,  white) !important;
+    color: white;
+}
+
+.pre-footer-bottom{
+    background: rgb(112, 14, 14);
+}
